@@ -2,6 +2,8 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    color: black;
+    font-size: x-large;
   }
   
   .form-inline label {
@@ -12,7 +14,7 @@
     vertical-align: middle;
     margin: 5px 10px 5px 0;
     padding: 10px;
-    background-color: #fff;
+    background-color: white;
     border: 1px solid #ddd;
   }
   
@@ -20,13 +22,12 @@
   .form-inline button {
     padding: 10px 20px;
     background-color: dodgerblue;
-    border: 1px solid #ddd;
-    color: white;
+    border: 1px solid black;
+    color:black;
   }
   
-  .form-inline button:hover {
-    background-color: royalblue;
-  }
+  
+  
   
   @media (max-width: 800px) {
     .form-inline input {
@@ -38,3 +39,25 @@
       align-items: stretch;
     }
   }
+  
+  .submit {
+      font-size: 500%; 
+      padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: black;
+    text-align: center;
+  }
+    
+    body {
+        background-color:white;
+    }
+    .second-form{
+        color: black;
+        font-size: x-large;
+    }
+    fieldset{
+      background-color: aquamarine;
+      text-align: center;
+      
+    }

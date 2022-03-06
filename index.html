@@ -1,27 +1,30 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <script src="script.js"></script>
 </head>
 <body>
     <form class="form-inline">
-       
+    
         <label for="day">Day:</label>
-        <input type="day" id="day" placeholder="Enter day of birth" name="day">
+        <input type="day" id="enterDay" placeholder="Enter day of birth" name="enterDay">
         <label for="month">Month:</label>
-        <input type="month of birth" id="month" placeholder="Enter Month of birth" name="month">
+        <input type="month of birth" id="enterMonth" placeholder="Enter Month of birth" name="enterMonth">
         <label for="year">Year:</label>
-        <input type="year" id="year" plac   eholder="Enter year of birth" name="year">
-        <label>
-          <input type="checkbox" name="remember"> Remember me</input>
-        </label>
-        <button type="submit" onclick="myOnClickFn()">Submit</button>
+        <input type="year" id="enterYear" placeholder="Enter year of birth" name="enterYear">
       </form>
-      <form>
+      
+      <form class="second-form">
         <input type="radio" name="gender" value="male" checked> Male<br>
         <input type="radio" name="gender" value="female"> Female<br>
         <input type="radio" name="gender" value="other"> Other
       </form>
+
+      <div class="submit">
+        <button id="btn">submit</button>
+      </div>
+        
     <link href="style.css" rel="stylesheet">
+    <script src="./script.js"></script>
+    <link href="./bootstrap.js">
+
 </body
 </html>
