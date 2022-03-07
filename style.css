@@ -1,3 +1,19 @@
+span.heading {
+  color: yellowgreen !important;
+
+}
+h1{
+  text-align: center;
+}
+h3 , h4 {
+  font-size: x-large;
+  text-align: center;
+}
+p{
+ background-color: yellowgreen;
+ font-size: x-large;
+
+}
 .form-inline {
     display: flex;
     flex-flow: row wrap;
@@ -25,10 +41,19 @@
     border: 1px solid black;
     color:black;
   }
-  
-  
-  
-  
+
+  .column {
+    float: left;
+    width: 10%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+
   @media (max-width: 800px) {
     .form-inline input {
       margin: 10px 0;
@@ -40,13 +65,11 @@
     }
   }
   
-  .submit {
-      font-size: 500%; 
-      padding: 10px 20px;
-    background-color: dodgerblue;
-    border: 1px solid #ddd;
-    color: black;
-    text-align: center;
+  .submit { 
+    padding: 50px;
+    text-align: left; 
+    width: 10%;
+  
   }
     
     body {
@@ -60,4 +83,7 @@
       background-color: aquamarine;
       text-align: center;
       
+    }
+    .gender {
+      font-size: x-large  
     }
