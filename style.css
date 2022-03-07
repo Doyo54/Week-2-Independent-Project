@@ -1,13 +1,35 @@
+.content{
+  background-color: yellowgreen;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px #000000;
+  border-radius: 0.5%;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
 span.heading {
-  color: yellowgreen !important;
+  color: black !important;
 
 }
 h1{
   text-align: center;
 }
 h3 , h4 {
+  font-size: xx-large;
+  text-align: justify;
+}
+li {
   font-size: x-large;
-  text-align: center;
+}
+h5 {
+  font-size: x-large;
 }
 p{
  background-color: yellowgreen;
@@ -44,7 +66,7 @@ p{
 
   .column {
     float: left;
-    width: 10%;
+    width: 50%;
     }
 
     .row:after {
@@ -65,11 +87,16 @@ p{
     }
   }
   
-  .submit { 
-    padding: 50px;
-    text-align: left; 
-    width: 10%;
-  
+  #btn{
+    border-radius: 10px;
+    color: #000000;
+    box-shadow: 2px 2px #000000;
+    border: solid 3px #000000;
+    width: 140px;
+    height: 40px;
+    text-align: justify;
+    font-size: 14px;
+    background-color: blanchedalmond;
   }
     
     body {
