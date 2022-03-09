@@ -1,3 +1,10 @@
+let form = document.getElementById("btn");
+form.addEventListener("click" , function(event){
+event.preventDefault();
+getAkanName();
+console.log('anything');
+
+});
 function getAkanName() {
 let Day=document.getElementById("enterDay");
 let Month=document.getElementById("enterMonth");
@@ -12,9 +19,7 @@ function getGender () {
       }
     }
   }
-
-  let myGenderValue = getGender();
-  console.log(myGenderValue);
+myGenderValue=getGender();
 
 function monthValidator () {
     if (Month < 1 || Month > 12) {
