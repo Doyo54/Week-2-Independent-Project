@@ -20,7 +20,7 @@ function getGender () {
   }
 myGenderValue=getGender();
 
-function monthValidator () {
+function validMonth () {
     if (Month < 1 || Month > 12) {
       return false;
     } else {
@@ -28,7 +28,7 @@ function monthValidator () {
     }
   }
 
-  function dayValidator () {
+  function validDay () {
     if (Month === 2 && Number(Year)%4 === 0) {
       if (Day > 28 || Day < 1) {
         return false;
@@ -47,8 +47,8 @@ function monthValidator () {
   }
 
   
-  let monthValid = monthValidator();
-  let dayValid = dayValidator();
+  let monthValid = validMonth();
+  let dayValid = validDay();
 
 
   let CC = enterYear.value.substring(0,2);
@@ -134,7 +134,6 @@ if (myGenderValue == "male" && monthValid && dayValid){
         document.getElementById('result').textContent = "You were born on a Monday: your Akan name is " + femaleNames[1];
         document.getElementById('display').textContent = "";
         return false;
-        alert("Kwadwo");
         break;
       case 3:
         document.getElementById('result').textContent = "You were born on a Tuesday: your Akan name is " + femaleNames[2];
