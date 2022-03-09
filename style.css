@@ -1,12 +1,12 @@
 .content{
-  background-color: yellowgreen;
+  background-color: bisque;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 10px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   box-shadow: 2px 2px #000000;
-  height: 100%;
+  height: 90%;
   border-radius: 0.5%;
 }
 
@@ -16,7 +16,8 @@
 }
 
 span.heading {
-  color: black !important;
+  color: #000000 !important;
+  font-size: 100%;
 
 }
 h1{
@@ -36,7 +37,7 @@ h5 {
   font-size: xx-large;
 }
 p{
- background-color: yellowgreen;
+ background-color: blanchedalmond;
  font-size: x-large;
 
 }
