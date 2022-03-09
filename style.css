@@ -1,12 +1,12 @@
 .content{
   background-color: yellowgreen;
+  border-radius: 0.5%;
   margin-left: 20%;
+  padding-bottom: 20px;
   margin-right: 20%;
   margin-top: 10px;
   margin-bottom: auto;
-  padding-bottom: 20px;
   box-shadow: 2px 2px #000000;
-  border-radius: 0.5%;
 }
 
 .container{
@@ -20,6 +20,7 @@ span.heading {
 }
 h1{
   text-align: center;
+  font-size: 300%;
 }
 h3 , h4 {
   font-size: xx-large;
@@ -92,10 +93,10 @@ p{
     color: #000000;
     box-shadow: 2px 2px #000000;
     border: solid 3px #000000;
-    width: 140px;
-    height: 40px;
-    text-align: justify;
-    font-size: 14px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
     background-color: blanchedalmond;
   }
     

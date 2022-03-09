@@ -8,7 +8,7 @@
   <h1 class="akan-heading">Akan <span class="heading">Names</span></h1>
   </U>
 <P> The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</P>
-<P>Hello there! This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name.</P>
+<P>This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name.</P>
 
     <form class="form-inline">
     
@@ -19,12 +19,13 @@
         <label for="year">Year:</label>
         <input type="year" id="enterYear" placeholder="Enter year of birth" name="enterYear">
       </form>
-      
+      <label for="gender">
       <form class="second-form">
         <h2 class="gender">Gender</h2>
         <input type="radio" name="gender" value="male" checked> Male<br>
         <input type="radio" name="gender" value="female"> Female<br>
       </form>
+    </label>
 
       <div class="row"></div>
       <div class="column">
@@ -49,7 +50,7 @@
 							<li>Thursday:  Yaw</li>
 							<li>Friday: Kofi</li>
 							<li>Saturday: Kwame</li>
-       </ul>
+       </ul>  
             </div>
           </div>  
           
@@ -58,7 +59,7 @@
         <button id="btn">GET AKAN NAME</button>
       </div>
 
-      <h5 id = display><strong>Your Akan name will be displayed below:</strong></h5>
+      <h5 id = display><strong>Your Akan name is:</strong></h5>
       <p id="result"></p>
         
     </div>
