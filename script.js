@@ -46,7 +46,6 @@ function validMonth () {
     }
   }
 
-  
   let monthValid = validMonth();
   let dayValid = validDay();
 

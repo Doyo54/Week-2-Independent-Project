@@ -20,21 +20,24 @@ h1{
   text-align: center;
   font-size: 300%;
 }
+
 h3 , h4 {
   font-size: xx-large;
   text-align: justify;
 }
+
 li {
   font-size: x-large;
 }
+
 h5 {
   font-size: x-large;
 }
 
 .Description{
  font-size: x-large;
-
 }
+
 .form-inline {
     display: flex;
     flex-flow: row wrap;
@@ -55,14 +58,12 @@ h5 {
     border: 1px solid #ddd;
   }
   
-
   .form-inline button {
     padding: 10px 20px;
     background-color: dodgerblue;
     border: 1px solid black;
     color:black;
   }
-
 
   @media (max-width: 800px) {
     .form-inline input {
@@ -93,27 +94,31 @@ h5 {
       margin-top: 0px;
       margin-bottom: auto;
     }
+
     body {
         background-color:white;
     }
+
     .second-form{
         color: black;
         font-size: x-large;
     }
+
     fieldset{
       background-color: aquamarine;
-      text-align: center;
-      
+      text-align: center; 
     }
+
     .gender {
       font-size: 120%;
       margin-right: 10px;
-
     }
+
     .footer {
       font-size: xx-large;
       color: brown;
     }
+    
     #female {
       margin-left: 10px;
     }
