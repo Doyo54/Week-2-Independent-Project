@@ -63,17 +63,6 @@ h5 {
     color:black;
   }
 
-  .column {
-    float: left;
-    width: 50%;
-    }
-
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-
 
   @media (max-width: 800px) {
     .form-inline input {
@@ -117,9 +106,14 @@ h5 {
       
     }
     .gender {
-      font-size: x-large  
+      font-size: 120%;
+      margin-right: 10px;
+
     }
     .footer {
       font-size: xx-large;
       color: brown;
+    }
+    #female {
+      margin-left: 10px;
     }
