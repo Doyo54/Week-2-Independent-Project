@@ -3,9 +3,10 @@
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 10px;
-  margin-bottom: auto;
+  margin-bottom: 20px;
   padding-bottom: 20px;
   box-shadow: 2px 2px #000000;
+  height: 100%;
   border-radius: 0.5%;
 }
 
