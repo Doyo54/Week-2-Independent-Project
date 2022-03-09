@@ -98,6 +98,7 @@ if (myGenderValue == "male" && monthValid && dayValid){
       case 4:
         document.getElementById('result').textContent = "You were born on a Wednesday: your Akan name is " + maleNames[3];
         document.getElementById('display').textContent = "";
+        return false;
         break;
       case 5:
         document.getElementById('result').textContent = "You were born on a Thursday: your Akan name is " + maleNames[4];
